@@ -1,0 +1,1 @@
+<button onclick="window.location.href='register.php'" class="signupbtn" style="width: 250px;">Apply Now</button>

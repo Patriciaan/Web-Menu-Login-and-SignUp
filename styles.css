@@ -1,0 +1,239 @@
+body {
+    background-image: url(beans.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+img {
+    border-radius: 2px;
+    height: 20px;
+    width: 155px;
+    margin-left: 15px;
+    position: absolute; 
+    top: 20px;             
+    left: 10px;
+}
+    
+.container {
+    background-color: antiquewhite;
+    background-image: url(bartender.png);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 150px;
+    text-align: right;
+    width: 50%;
+    top: 20%;
+    margin: 20% auto;
+    
+}
+
+.container h1{
+    font-size: 50px;
+}
+
+.container h2{
+    font-size: 30px;
+}
+
+
+.button {
+    padding: 10px 10px;
+    background-color: rgb(104, 101, 101);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgb(104, 101, 101);
+}
+
+input[type=text], input[type=password], input[type=date] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+input[type=text]:focus, input[type=password]:focus, input[type=date]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  
+  
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+
+/*SIGN UP*/
+  
+
+.signupbtn{
+    padding: 10px 10px;
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}  
+
+.signupbtn:hover{
+    background-color: #037d4e;
+}
+  
+.cont_sign {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 50px;
+    width: 50%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: 0;
+    flex-direction: column;
+    justify-content: left;
+    position:absolute;
+    top: 90px;
+
+  }
+
+.headstyle {
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    top: 0; 
+    width: 100%;
+    background-color: black; 
+    color: #fff; 
+    padding: 20px; 
+    box-sizing: border-box;
+    align-items: left;
+}
+  
+
+.cont_sign h1 {
+    color: #000;
+    margin-top: 50px;
+}
+
+.cont_sign p{
+  margin-top: 50px;
+}
+  
+  
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+@media screen and (max-width: 300px) {
+    .signupbtn {
+      width: 100%;
+    }
+  }
+
+  .password-container {
+    width: 980px;
+    position: relative; 
+    display: flex; 
+    
+  }
+  
+  .password {
+    padding-right: 30px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+  }
+  
+  .eye-icon {
+    position: absolute;
+  top: 40%; /* Adjust as needed for vertical alignment */
+  right: 10px; /* Place the icon 10 pixels from the right edge */
+  transform: translateY(-50%); /* Center the icon vertically */
+  width: 35px;
+  height: 25px;
+  cursor: pointer;
+    
+  }
+  
+
+/*LOG IN*/
+
+.cont_log {
+  background-color: antiquewhite;
+  border-radius: 5px;
+  padding: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+.loginbtn{
+  padding: 15px 15px;
+  size: 20px;
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}  
+
+.loginbtn:hover{
+
+  background-color: #048f5c;
+
+}
+
+/*PROFILE*/
+.cont_profile {
+  background-color: antiquewhite;
+  background-image: url(welcomegirl.png);
+  background-size: 350px;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  padding: 90px;
+  text-align: right;
+  float: right; 
+  height: 80px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+/*VERIFY*/  
+
+.cont_verify {
+  background-color: antiquewhite;
+  border-radius: 5px;
+  padding: 100px;
+  float: left; 
+  width: 30%;
+  margin: 0 auto;
+}
+
+.required {
+  color: red;
+}
